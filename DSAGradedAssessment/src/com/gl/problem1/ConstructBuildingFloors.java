@@ -60,7 +60,7 @@ public class ConstructBuildingFloors {
 			}
 			floorStack.push(size);
 			tempStack.push(size);
-			System.out.println("top -> " + floorStack.peek());
+//			System.out.println("top -> " + floorStack.peek());
 			
 			while(!floorStack.isEmpty()) {
 				tempList.add(floorStack.pop());
